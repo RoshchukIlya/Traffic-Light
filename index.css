@@ -23,15 +23,15 @@
 }
 
 .circle_red {
-  animation: circle_red 15s linear 0s infinite normal none running;
+  animation: circle_red 20s linear 0s infinite normal none running;
 }
 
 .circle_yellow {
-  animation: circle_yellow 15s linear 0s infinite normal none running;
+  animation: circle_yellow 20s linear 0s infinite normal none running;
 }
 
 .circle_green {
-  animation: circle_green 15s linear 0s infinite normal none running;
+  animation: circle_green 20s linear 0s infinite normal none running;
 }
 
 .stick {
@@ -41,31 +41,38 @@
 }
 
 @keyframes circle_red {
-  0% {
+  5% {
+    background-color: rgb(36, 36, 36);
+  }
+
+  10% {
+    background-color: red;
+  }
+
+  30% {
     background-color: red;
   }
 
   40% {
-    background-color: red;
-  }
-
-
-  50% {
-    background-color: rgb(36, 36, 36);
-  }
-
-  100% {
     background-color: rgb(36, 36, 36);
   }
 }
 
 @keyframes circle_yellow {
   0% {
+    background-color: yellow;
+  }
+
+  10% {
     background-color: rgb(36, 36, 36);
   }
 
-  48% {
+  35% {
     background-color: rgb(36, 36, 36);
+  }
+
+  40% {
+    background-color: yellow;
   }
 
   50% {
@@ -73,36 +80,36 @@
   }
 
   60% {
+    background-color: rgb(36, 36, 36);
+  }
+
+  85% {
+    background-color: rgb(36, 36, 36);
+  }
+
+  90% {
     background-color: yellow;
   }
 
-  70% {
-    background-color: rgb(36, 36, 36);
-  }
-
   100% {
-    background-color: rgb(36, 36, 36);
+    background-color: yellow;
   }
 }
 
 @keyframes circle_green {
-  0% {
+  55% {
     background-color: rgb(36, 36, 36);
   }
 
-  68% {
-    background-color: rgb(36, 36, 36);
+  60% {
+    background-color: green;
   }
 
-  70% {
+  80% {
     background-color: green;
   }
 
   90% {
-    background-color: green;
-  }
-
-  100% {
     background-color: rgb(36, 36, 36);
   }
 }
